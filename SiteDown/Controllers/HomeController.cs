@@ -8,6 +8,18 @@ namespace SiteDown.Controllers
 {
     public class HomeController : Controller
     {
+        public class Asd
+        {
+            public static void StaticMethod()
+            {
+                return;
+            }
+
+            public void InstancMethod()
+            {
+
+            }
+        }
         public ActionResult Index()
         {
             return View();
